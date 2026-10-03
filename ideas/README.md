@@ -1,6 +1,6 @@
 # テーマ候補と検討状況
 
-更新日: 2026-09-21
+更新日: 2026-10-03
 
 候補の概要と比較の経緯を残す。以下の機能・設計は探索案であり、実装要件や既存製品に対する新規性を確認したものではない。
 
@@ -34,9 +34,9 @@
 
 Generic Control PlaneとWorkflow / Execution Platformを組み合わせる具体的な方向性であり、完全に独立した三つの製品を作る想定ではない。
 
-小さく観測・計画・実行を一周させ、その部分を個別に検証・発展させる方針に合意した。最初の題材はAPI＋DBの一時環境が案として挙がっている。
+小さく観測・計画・実行を一周させ、その部分を個別に検証・発展させる方針に合意した。最初のPoCにはAPI＋DBの一時環境を採用した。以降の設計・実装・検証は本体リポジトリの[goal-executor](https://github.com/ginoh/goal-executor)で進めている。
 
-- [構想とPoC](../explorations/goal-driven-execution/design.md)
+- [テーマの概要と移行先](../explorations/goal-driven-execution/design.md)
 - [設計上の問い](../explorations/goal-driven-execution/questions.md)
 
 ### PRごとの一時環境基盤

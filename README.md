@@ -27,9 +27,9 @@
 ## 資料と現在地
 
 - [テーマ候補と検討状況](ideas/README.md)
-- [目標へ収束する実行基盤 — 構想とPoC](explorations/goal-driven-execution/design.md)
+- [目標へ収束する実行基盤 — 概要と移行先](explorations/goal-driven-execution/design.md)
 - [実行基盤の設計上の問い](explorations/goal-driven-execution/questions.md)
 
-2026-09-21時点では、Control PlaneとWorkflow / Execution Platformを組み合わせた「目標へ収束する実行基盤」を中心に検討している。全体の方向性は合意済みで、具体的な技術選定やPoCの実装範囲は未確定。他候補も残す。
+Control PlaneとWorkflow / Execution Platformを組み合わせた「目標へ収束する実行基盤」を選び、[goal-executor](https://github.com/ginoh/goal-executor)で開発を進めている。具体的な設計・実装・検証結果は本体側で管理し、ここには選定の経緯と他候補を残す。
 
 `ideas/`は候補の入口、`explorations/`は掘り下げた構想や未決事項の置き場とする。文書では決定事項・仮案・未確認事項を区別する。
